@@ -15,7 +15,7 @@ public class Main {
 		    
 		    ArrayList as = new ArrayList();
 			System.out.println("Hello OCA");
-			Animal a = new Animal();
+			//Animal a = new Animal();
 			Voiture v = new Voiture();
 			chapter_2.Personne p = new chapter_2.Personne();
 			Student s = new Student();
