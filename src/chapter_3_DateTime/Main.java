@@ -7,7 +7,9 @@ import java.time.Month;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashSet;
 
 public class Main {
 
@@ -89,7 +91,19 @@ public class Main {
 		/*LocalDateTime ldt = LocalDateTime.of(2020, 12,10,15,10);
 		DateTimeFormatter f2 = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM);
 		System.out.println(f2.format(ldt));*/
-
+		
+		//ArrayList<Integer> al = new ArrayList<>();
+		HashSet<Integer> al = new HashSet<>();
+		al.add(14);
+		al.add(2);
+		al.add(21);
+		al.add(3);
+		System.out.println(al);
+		String ch = "hello";
+		if("hello"==ch)
+		{
+			System.out.println("true");
+		}
 	}
 
 }
